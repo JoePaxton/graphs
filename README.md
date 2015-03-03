@@ -13,6 +13,7 @@ I want to expand on different visualizations on attributes for different tracks 
 First you need to get the Track ID from the song you want to analyze. Then you can continue making your
 graph the way you want it to look using [matplotlib]. After this, I used a scatter and bar plot from 
 the [matplotlib] API and fed the data of the mean of pitches and timbre into two different plots. 
+See how I implemented [researchmodule.py] to create my graphs.
 
 ```python
 import echonest.remix.audio as audio
@@ -58,6 +59,5 @@ scatter function.
 1. [matplotlib]
 
 
-
 [matplotlib]: http://matplotlib.org/
-
+[researchmodule.py]: https://github.com/JoePaxton/graphs/blob/master/researchmodule.py
