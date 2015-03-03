@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Displays a Bar and Scatter plot for Timbres and Pitches for each Segment throughout the track, outputting four plots. In addition, there is a 3D plot for Timbre and Pitches by Segment. These images will be saved to the current directory you are working in when running this program. In total, there are five plots that will be saved.
+Displays a Bar and Scatter plot for Timbres and Pitches for each Segment throughout the track (in our case it is Worldstar by Childish Gambino) outputting four plots. In addition, there is a 3D plot for Timbre and Pitches by Segment. These images will be saved to the current directory you are working in when running this program. In total, there are five plots that will be saved.
 
 **Inspiration**
 
@@ -11,7 +11,7 @@ I want to expand on different visualizations on attributes for different tracks 
 **Explanation**
 
 First you need to get the Track ID from the song you want to analyze. Then you can continue making your
-graph the way you want it to look using [matplotlib]. After this, I used a scatter and bar plot from 
+graph the way you want it to look using [matplotlib]. After the code below, I used a scatter and bar plot from 
 the [matplotlib] API and fed the data of the mean of pitches and timbre into two different plots. 
 See how I implemented [researchmodule.py] to create my graphs.
 
