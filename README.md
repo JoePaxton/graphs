@@ -62,4 +62,4 @@ scatter function. [matplotlib 3D]
 
 [matplotlib]: http://matplotlib.org/
 [researchmodule.py]: https://github.com/JoePaxton/graphs/blob/master/researchmodule.py
-[matplotlib 3D]: http://matplotlib.org/examples/mplot3d/surface3d_demo3.html
+[matplotlib 3D]: http://matplotlib.org/faq/howto_faq.html#how-to-search-examples
