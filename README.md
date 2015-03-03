@@ -6,7 +6,7 @@ Displays a Bar and Scatter plot for Timbres and Pitches for each Segment through
 
 **Inspiration**
 
-I want to expand on different visualizations on attributes for different tracks and be able to produce animation(s) while the track is playing. By learning on how to plot different attributes in a 2D and a 3D graph, it will help me understand how matplotlib stores data from Echo Nest into functions that their API provides.
+I want to expand on different visualizations on attributes for different tracks and be able to produce animation(s) while the track is playing. By learning on how to plot different attributes in a 2D and a 3D graph, it will help me manipulate animations and plots from [matplotlib] so I can store data from Echo Nest into functions that their API provides.
 
 **Explanation**
 
