@@ -35,7 +35,7 @@ dimensions in the zeros function provided by numpy. With that variable you need 
 data (segments, pitches, and timbre) when you iterate through the segments (x-axis). When we use the scattter
 function, we need to feed it all of the values that are contained in the list for segments, pitches, and timbre
 instead of just feeding it the first value of the list; hence, the "strange" syntax in the indices within the
-scatter function. [matplotlib 3D] 
+scatter function. The savefig function saves the 3D plot in the current directory you are working in. The first parameter is the name of the .png image and the second parameter 'dpi' is simply dots per inch. For resolution purposes dpi=600 seemed to be the best looking, in my opinion.
 
 ```python
     points = np.zeros((len(segments), 3),dtype=float)    
@@ -53,6 +53,8 @@ scatter function. [matplotlib 3D]
     plt.savefig('3D_Plot_Pitch_and_Timbre.png',dpi=600) 
     plt.show()
 ```
+I used [matplotlib 3D] examples in order to figure out how to feed Echo Nest data into a 3D plot.
+
 
 **Resources**
   
