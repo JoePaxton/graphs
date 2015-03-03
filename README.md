@@ -29,11 +29,12 @@ for seg in segments:
 
 **3D plot**
 
-When creating a 3D plot, you need to first create a variable that will hold the x-axis and the dimensions. With
-that variable you need to append the 3 dimensional data (segments, pitches, and timbre) when you iterate through
-the segments (x-axis). When we use the scattter function, we need to feed it all of the values that are contained
-in the list for segments, pitches, and timbre instead of just feeding it the first value of the list; hence, the 
-"strange" syntax in the function.
+When creating a 3D plot, you need to first create a variable that will hold the x-axis in our case and the 
+dimensions in the zeros function provided by numpy. With that variable you need to append the 3 dimensional
+data (segments, pitches, and timbre) when you iterate through the segments (x-axis). When we use the scattter
+function, we need to feed it all of the values that are contained in the list for segments, pitches, and timbre
+instead of just feeding it the first value of the list; hence, the "strange" syntax in the indices within the
+scatter function.
 
 ```python
     points = np.zeros((len(segments), 3),dtype=float)    
