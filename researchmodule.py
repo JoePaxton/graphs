@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 """
-Prints a  plot of the mean pitches over the segments during the track.
-You can change the Track_ID on line 12 to a song you prefer.
+See README.md
 Author: Joe Paxton
 """
 
