@@ -57,8 +57,9 @@ scatter function. [matplotlib 3D]
 **Resources**
   
 1. [matplotlib]
+2. [matplotlib 3D]
 
 
 [matplotlib]: http://matplotlib.org/
 [researchmodule.py]: https://github.com/JoePaxton/graphs/blob/master/researchmodule.py
-[matplotlib 3D]: http://matplotlib.org/examples/mplot3d/surface3d_plot3d.html
+[matplotlib 3D]: http://matplotlib.org/examples/mplot3d/surface3d_demo3.html
