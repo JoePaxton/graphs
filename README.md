@@ -35,7 +35,7 @@ dimensions in the zeros function provided by numpy. With that variable you need 
 data (segments, pitches, and timbre) when you iterate through the segments (x-axis). When we use the scattter
 function, we need to feed it all of the values that are contained in the list for segments, pitches, and timbre
 instead of just feeding it the first value of the list; hence, the "strange" syntax in the indices within the
-scatter function.
+scatter function. [matplotlib 3D] 
 
 ```python
     points = np.zeros((len(segments), 3),dtype=float)    
@@ -61,3 +61,4 @@ scatter function.
 
 [matplotlib]: http://matplotlib.org/
 [researchmodule.py]: https://github.com/JoePaxton/graphs/blob/master/researchmodule.py
+[matplotlib 3D]: http://matplotlib.org/examples/mplot3d/surface3d_plot3d.html
